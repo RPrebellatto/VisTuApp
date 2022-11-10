@@ -26,6 +26,10 @@ public class Context : IdentityDbContext<Usuario>
         }
     }
 
+    public DbSet<Tubulacao> Tubulacoes { get; set; }
+    public DbSet<Avaria> Avarias { get; set; }
+    public DbSet<Vistoria> Vistorias { get; set; }
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);

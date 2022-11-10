@@ -3,3 +3,4 @@ global using System.ComponentModel.DataAnnotations.Schema;
 global using Microsoft.EntityFrameworkCore;
 
 global using VisTuApp.Areas.Identity.Data;
+global using VisTuApp.Models;
